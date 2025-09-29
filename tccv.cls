@@ -197,7 +197,7 @@
     \renewcommand\item[4][]{%
 	\textsc{##2} & \textbf{##3} \\
 	\ifstrempty{##1}{}{& \textsc{##1} \\}
-	& \textit{##4}\medskip\\}
+	& {##4}\medskip\\}
     \tabularx{\linewidth}{rX}}
     {\endtabularx}
 
